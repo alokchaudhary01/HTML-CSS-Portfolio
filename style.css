@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "sher";
+    src: url("./NeueMachina-Bold_WaMOsLX9Z9.ttf") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(215, 209, 209, 0.176);
+    color: rgb(0, 0, 0);
+    
+}
+#top{
+    
+padding-top: 50px;
+    height: 200px;
+    color:#ffffff;
+    background-color: #190430;
+}
+#career{
+    
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+#name{
+    text-align: center;
+   
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container{
+   margin: auto;
+   width: 80%;
+}
+
+.card{
+    text-align: center;
+    background-color: #ffffff;
+  
+    margin: 20px;
+    padding: 60px;
+  
+}
+
+.card-heading{
+    font-size: 40px;
+   
+    margin-bottom: 20px;
+}
+
+#head-discription{
+    font-family: sher;
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 10px 0;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #190430;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#education{
+   
+   background-color: rgba(132, 215, 208, 0.436);
+}
+#skills{
+   
+   background-color: rgba(215, 196, 132, 0.304);
+}
+#projects{
+   
+   background-color: rgba(183, 169, 239, 0.432);
+}
+#contact{
+   
+   background-color: rgba(176, 239, 169, 0.427);
+}
+
+#skills-list{
+    font-weight: 600;
+}
